@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vino Group</title>
+        <link rel="stylesheet" href="./style.css"/>
+    </head>
+    <body>
+    <section id="main">
+      <div class="container">
+        <nav>
+            <ul class="nav-list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact Details</a></li>
+            </ul>
+            <img src="./images/menu.svg.png" alt="" class="menu-btn"/>
+        </nav>
+
+        <div class="main-content">
+            <h1 class="intro-heading">Welcome to the Vinoth Group</h1>
+            <p>
+                Your One-Stop Solution for Diverse Services.
+            </p>
+            <button class="btn btn-primary">Get Started</button>
+        </div>
+      </div>   
+    </section>
+   
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h1>Our Services</h1>
+                <div class="line"></div>
+            </div>
+            <div class="services">
+                <div class="service">
+                    <img src="./images/consultancy1.jpg" alt="">
+                    <h3>Engineering Consultancy</h3>
+                    <p>Expert project management and industry-standard implementations. The Vinothgroup provides top notch engineering consultation that will provide clients
+                       with technical solutions and advice as well as Non Destructive Testing (NDT)</p>
+                </div>
+                <div class="service">
+                    <img src="./images/PLUMB1.jpg" alt="">
+                    <h3>Electrical,Plumbing&Civil Maintenance</h3>
+                    <p> Vinogroup provides comprehensive Electrical, Plumbing and Civil Maintenance services, including the upkeep of electrical systems like outlets, generators
+                       and lighting; plumbing repairs, inspections, and preventive maintenance; and construction together with the renovation of 
+                       buildings.
+                    </p>
+                </div>
+                <div class="service">
+                    <img src="./images/OFFICE - Copy.jpg" alt="">
+                    <h3>Office Supplies & Stationery</h3>
+                    <p> Vinogroup provides stationery products that range from the basics of furniture such as tables and chairs for all types of office work spaces down to the little 
+                       things you carry around throughout your day from pens and pencils up to notebooks both big and small. 
+                       As well as computers, laptops, tablets and phones.</p>
+                </div>
+                <div class="service">
+                    <img src="./images/GARDEN SERVICE.jpg" alt="">
+                    <h3>Gardening Services</h3>
+                    <p>Grass cutting, weeding, pruning, and complete garden maintenance. Vinogroup provides excellent gardening services from the 
+                       basics of cutting grass to sorting out weeds, the group ensures that the pavemenent is neat, the trees and plants are trimmed and pruned. </p>
+                </div>
+                <div class="service">
+                    <img src="./images/security6.jpg" alt="">
+                    <h3>Security Services</h3>
+                    <p>VIP protection, armed/unarmed guards, and event security.The newest division of the Vinogroup deals in security, they provide security services
+                       that include VIP protection, armed and unarmed guarding services as well as protection services for home security or events. </p>
+                </div>
+            </div>
+        </div>  
+    </section>
+    
+    <section id="mission-statement">
+       <h1>"We are committed to providing excellence in every service we offer, striving to meet 
+           and exceed our client's expectations"</h1> 
+    </section>
+
+    <section id="about-us">
+        <div clas="container">
+            <div class="about-content">
+                <h4>About Us</h4>
+                <p>The Vinoth Group was founded in 2020 and it is a multi-faceted company dedicated to delivering top-notch services 
+                   across various domains. Our team of experts ensures quality, professionalism and intergrity in everything they do. We are company that is found both 
+                   in South Africa and Nigeria.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- contact section: use id for styling -->
+        <div id="contact-details" class="contact details">
+            <div class="container">
+                <h2>Contact Details</h2>
+                <p>📞 Phone: (082 442 2391 | 067 406 6167)</p>
+                <p>📧 Email: info@vinothgroup.co.za</p>
+                <p>📍 Location: (15 Stinkhout Street SE3 Vanderbijlpark 1911)</p>
+                <p>📍 Location: (2 Henri Van Wyk Street SE7 Vanderbijlpark 1911)</p>
+                <p>📍 Location: (29 Brigantine Stree, Sun Valley, Cape Town, Western Cape 7985)</p>
+                <p>📍 Location: 9 Holy Ghost City, Tiwadayo Estate, Iwo-Ibadan Road, Ofatedo Osogbo. Osun State Nigeria</p>
+                </div>
+            <img src="" alt="" class="footerLogo">
+        </div>
+    </footer>
+
+
+
+     <script>
+        const navBtn = document.querySelector('.menu-btn')
+        const navList = document.querySelector('.nav-list')
+
+        navBtn.addEventListener('click',function(){
+          navList.classList.toggle("active");
+        });
+     </script>
+    </body>
+</html>
